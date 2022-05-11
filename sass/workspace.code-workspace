@@ -1,13 +1,19 @@
 {
   "folders": [
-	{
-		"path": "D:\\WEB_DEV\\Projects\\50DaysChallenge"
-	},
-	{
-		"path": ".."
-	}
-],
+    {
+      "path": "D:\\WEB_DEV\\Projects\\50DaysChallenge"
+    },
+    {
+      "path": "..\\..\\java-script"
+    },
+    {
+      "path": "D:\\WEB_DEV\\Projects\\06-Modal"
+    },
+    {
+      "path": "..\\..\\07-Pig-Game"
+    }
+  ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "Trilo"
+    "liveServer.settings.multiRootWorkspaceName": "07-Pig-Game"
   }
 }

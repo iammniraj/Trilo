@@ -13,6 +13,35 @@
     <title>trillo &mdash; Your all-in-one booking app</title>
   </head>
   <body>
+
+    <section class="popup1 hidden ">
+      <div class="popup1__user">
+        <div class="popup1__user-wall">
+
+        </div>
+        <div class="popup1__user-details">
+          <div class="popup1__user-profile">
+            <img height="300px" width="300px" src="./img/user1.jpg" alt="">
+            <ul class="popup1__user-profile-list">
+              <li class="popup1__user-profile-item"><a href="#">My booking</a></li>
+              <li class="popup1__user-profile-item"><a href="#">Subscription</a></li>
+              <li class="popup1__user-profile-item"><a href="#">Cancellation</a></li>
+              <li class="popup1__user-profile-item"><a href="#">Recent Trio</a></li>
+              <li class="popup1__user-profile-item"><a href="#">Support</a></li>
+
+            </ul>
+
+
+          </div>
+          <div class="popup1__user-review">
+            
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <div class="container">
       <header class="header">
         <img src="img/logo.png" alt="logo" class="logo" />
@@ -45,7 +74,7 @@
             </svg>
             <span class="user-nav__notification">18</span>
           </div>
-          <div class="user-nav__user">
+          <div id="user-nav__user" class="user-nav__user">
             <img
               src="img/user.png"
               alt="user image"
@@ -54,6 +83,8 @@
             <span class="user-nav__user-name">Niraj</span>
           </div>
         </nav>
+        
+  </body>
       </header>
 
       <div class="content">
@@ -267,24 +298,9 @@
         </main>
       </div>
     </div>
-  </body>
-  <script>
-    const panels = document.querySelectorAll(".panel");
 
-    panels.forEach((panel) => {
-      panel.addEventListener("click", () => {
-        removeActiveClass();
-        panel.classList.add("active");
-      });
-    });
-
-    function removeActiveClass() {
-      panels.forEach((panel) => {
-        panel.classList.remove("active");
-      });
-    }
-  </script>
-</html>
+    
+  <script src="index.js"></script>
 
 <!-- <figure class="gallery__item gallery__active">
   <img
